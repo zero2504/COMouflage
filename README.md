@@ -116,7 +116,7 @@ bool SetRegStr(HKEY root, const std::wstring& key,
 
 1. **`RegCreateKeyExW`**: Creates or opens the specified registry key with `KEY_WRITE` permissions
 1. **Error Handling**: Each registry operation includes proper error checking
-1. **`REG_OPTION_NON_VOLATILE`**: Ensures the key persists across reboots -> Could be changed with **`REG_OPTION_VOLATILE`** (Dtored in memory and is not preserved when the corresponding registry hive is unloaded)
+1. **`REG_OPTION_NON_VOLATILE`**: Ensures the key persists across reboots -> Could be changed with **`REG_OPTION_VOLATILE`** (Stored in memory and is not preserved when the corresponding registry hive is unloaded)
 
 ### 4.3 AppID Registry Configuration
 
